@@ -116,9 +116,14 @@ cache_alignment	: 64
 address sizes	: 36 bits physical, 48 bits virtual
 power management:
 ```
+3. I was using the os library but during the assigment I noticed that there are a few changes and that its better to use subprocess, indeed the functions are superior.
 
 # Resources Used
 Below you can find some reading material and resources that I used to achieve my goal.
 ### Upload VHD on azure:
 * https://www.youtube.com/watch?v=iM1t_in-OuQ
 * https://docs.fedoraproject.org/en-US/fedora-coreos/provisioning-azure/#_downloading_an_azure_image
+### Python resources:
+* https://docs.python.org/3/library/subprocess.html
+* https://www.python.org/dev/peps/pep-0324/
+* https://stackoverflow.com/questions/4760215/running-shell-command-and-capturing-the-output
