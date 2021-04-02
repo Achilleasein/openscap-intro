@@ -127,3 +127,7 @@ Below you can find some reading material and resources that I used to achieve my
 * https://docs.python.org/3/library/subprocess.html
 * https://www.python.org/dev/peps/pep-0324/
 * https://stackoverflow.com/questions/4760215/running-shell-command-and-capturing-the-output
+
+
+#### for cleanup
+https://listman.redhat.com/archives/open-scap-list/2018-August/msg00033.html
