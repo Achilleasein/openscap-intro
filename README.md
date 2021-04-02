@@ -2,6 +2,7 @@
 1. My PC is very very old and I had an azure subscription so I setup the VM on there. The azure doesn't have a default image of fedora ready, but the fedora project provides one so a manual upload was in order. I eventually did it on a virtualbox on my PC, it was very slow but azure wasn't very cooperative with using fedora as an image.
 Eventually I run it with a live usb on my PC since my old motherboard cant handle it, at last I can start working.
 2. Below you can find my PC specs, they are relevant to any test.
+```
 $ cat /proc/cpuinfo 
 processor	: 0
 vendor_id	: GenuineIntel
@@ -114,7 +115,7 @@ clflush size	: 64
 cache_alignment	: 64
 address sizes	: 36 bits physical, 48 bits virtual
 power management:
- 
+```
 
 # Resources Used
 Below you can find some reading material and resources that I used to achieve my goal.
