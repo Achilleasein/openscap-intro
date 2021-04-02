@@ -2,7 +2,7 @@
 1. My PC is very very old and I had an azure subscription so I setup the VM on there. The azure doesn't have a default image of fedora ready, but the fedora project provides one so a manual upload was in order. I eventually did it on a virtualbox on my PC, it was very slow but azure wasn't very cooperative with using fedora as an image.
 Eventually I run it with a live usb on my PC since my old motherboard cant handle it, at last I can start working.
 2. Below you can find my PC specs, they are relevant to any test.
-[liveuser@localhost-live red-hat-assignment]$ cat /proc/cpuinfo 
+$ cat /proc/cpuinfo 
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6
