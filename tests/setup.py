@@ -5,6 +5,8 @@ executable_commands = [ "sudo dnf install openscap-scanner",
                         "sudo dnf install scap-security-guide"
         ]
 
+completetion_message = 'Complete!'
+
 def installopenscap():
     print('Beginning installing openscap-scaner')
     print(executable_commands[0])
@@ -12,6 +14,8 @@ def installopenscap():
     out.stdout.decode('utf-8')
     if out.stderr != None:
         return 'Error'
+    if completition_message not in out.stdout:
+        return 'Installation not complete'
 
 def installsecurityguide():
     print('Beginning installing openscap-security-guide')
@@ -20,6 +24,8 @@ def installsecurityguide():
     out.stdout.decode('utf-8')
     if out.stderr != None:
         return 'Error'
+    if completition_message not in out.stdout:
+        return 'Installation not complete'
 
 def main():
     print('Beginning setting up...')
