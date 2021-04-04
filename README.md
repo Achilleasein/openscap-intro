@@ -133,27 +133,47 @@ Below you can find some reading material and resources that I used to achieve my
 ### SSHD reading material:
 * https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
 
-
 #### for cleanup
-https://listman.redhat.com/archives/open-scap-list/2018-August/msg00033.html
+https://listman.redhat.com/archives/open-scap-list/2018-August/msg00033.html <br/>
 https://www.open-scap.org/tools/openscap-base/
+<br/>
 https://www.open-scap.org/security-policies/scap-security-guide/
+<br/>
 https://www.fit.vut.cz/study/thesis-file/23098/23098.pdf
+<br/>
 http://static.open-scap.org/openscap-1.3/oscap_user_manual.html
+<br/>
 https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
+<br/>
 https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/
+<br/>
 https://getfedora.org/
+<br/>
 https://docs.fedoraproject.org/en-US/fedora/rawhide/install-guide/install/Preparing_for_Installation/
+<br/>
 https://getfedora.org/en/workstation/download/
+<br/>
 https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/
+<br/>
 https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
+<br/>
 https://www.ssh.com/ssh/sshd_config/
+<br/>
 https://linux.die.net/man/5/sshd_config
+<br/>
 https://man7.org/linux/man-pages/man5/sshd_config.5.html
+<br/>
 https://www.freebsd.org/cgi/man.cgi?sshd_config(5)
+<br/>
 https://superuser.com/questions/6338/how-do-you-track-which-packages-were-installed-on-ubuntu-linux
+<br/>
 https://askubuntu.com/questions/247549/is-it-possible-to-undo-an-apt-get-install-command
+<br/>
 https://unix.stackexchange.com/questions/79050/can-i-rollback-an-apt-get-upgrade-if-something-goes-wrong
+<br/>
 https://docs.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Removing.html
+<br/>
 https://docs.fedoraproject.org/en-US/Fedora/14/html/User_Guide/sect-User_Guide-Using_the_command_line_interface-Removing_software.html
+<br/>
 https://unix.stackexchange.com/questions/417198/remove-package-and-installed-dependencies-with-apt-get
+<br/>
