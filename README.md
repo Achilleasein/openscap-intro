@@ -118,6 +118,14 @@ power management:
 ```
 3. I was using the os library but during the assigment I noticed that there are a few changes and that its better to use subprocess, indeed the functions are superior.
 
+# Test cases
+1. Default pass
+2. Huge timeout
+3. Very small timeout
+4. Iterate and find the breaking point of the test
+5. Overflow timeout
+6. Remove the ssh capabilities
+
 # Resources Used
 Below you can find some reading material and resources that I used to achieve my goal.
 ### Upload VHD on azure:
