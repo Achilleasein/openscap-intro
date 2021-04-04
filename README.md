@@ -127,7 +127,33 @@ Below you can find some reading material and resources that I used to achieve my
 * https://docs.python.org/3/library/subprocess.html
 * https://www.python.org/dev/peps/pep-0324/
 * https://stackoverflow.com/questions/4760215/running-shell-command-and-capturing-the-output
+### Install-Uninstall:
+* https://unix.stackexchange.com/questions/434035/track-where-files-are-installed-during-app-installation-in-linux
+* https://www.reddit.com/r/Fedora/comments/er2lbi/how_to_completely_remove_a_package_from_fedora/
+### SSHD reading material:
+* https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
 
 
 #### for cleanup
 https://listman.redhat.com/archives/open-scap-list/2018-August/msg00033.html
+https://www.open-scap.org/tools/openscap-base/
+https://www.open-scap.org/security-policies/scap-security-guide/
+https://www.fit.vut.cz/study/thesis-file/23098/23098.pdf
+http://static.open-scap.org/openscap-1.3/oscap_user_manual.html
+https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
+https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/
+https://getfedora.org/
+https://docs.fedoraproject.org/en-US/fedora/rawhide/install-guide/install/Preparing_for_Installation/
+https://getfedora.org/en/workstation/download/
+https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/
+https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
+https://www.ssh.com/ssh/sshd_config/
+https://linux.die.net/man/5/sshd_config
+https://man7.org/linux/man-pages/man5/sshd_config.5.html
+https://www.freebsd.org/cgi/man.cgi?sshd_config(5)
+https://superuser.com/questions/6338/how-do-you-track-which-packages-were-installed-on-ubuntu-linux
+https://askubuntu.com/questions/247549/is-it-possible-to-undo-an-apt-get-install-command
+https://unix.stackexchange.com/questions/79050/can-i-rollback-an-apt-get-upgrade-if-something-goes-wrong
+https://docs.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Removing.html
+https://docs.fedoraproject.org/en-US/Fedora/14/html/User_Guide/sect-User_Guide-Using_the_command_line_interface-Removing_software.html
+https://unix.stackexchange.com/questions/417198/remove-package-and-installed-dependencies-with-apt-get

@@ -1,8 +1,8 @@
 import os
 import subprocess
 
-executable_commands = [ "sudo dnf install openscap-scanner",
-                        "sudo dnf install scap-security-guide"
+executable_commands = [ "sudo dnf install openscap-scanner -y",
+                        "sudo dnf install scap-security-guide -y"
         ]
 
 completition_message = 'Complete!'
