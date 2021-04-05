@@ -16,3 +16,11 @@ oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_standard \
 # our own rule for the test
 oscap xccdf eval --profile pci-dss --rule xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout /usr/share/xml/scap/ssg/content/ssg-fedora-ds.xml
 
+
+# with report
+oscap xccdf eval \
+--profile pci-dss --rule xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout \
+--results-arf arf.xml \
+--report report.html \
+/usr/share/xml/scap/ssg/content/ssg-fedora-ds.xml
+
