@@ -25,7 +25,7 @@ oscap xccdf eval \
 /usr/share/xml/scap/ssg/content/ssg-fedora-ds.xml
 
 # with report @ custom file
-oscap xccdf eval \
+sudo oscap xccdf eval \
 --profile pci-dss --rule xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout \
 --results-arf reports/error_arf.xml \
 --report reports/error_report.html \
