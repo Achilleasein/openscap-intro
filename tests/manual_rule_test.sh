@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #  our own profile
 oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_pci-dss \
