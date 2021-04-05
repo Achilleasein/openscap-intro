@@ -334,6 +334,10 @@ unix          sysctl                       probe_sysctl
 unix          uname                        probe_uname
 unix          xinetd                       probe_xinetd
 ```
+
+8. There is no default expected output when using the default command.
+9. The oscap should be executed in elevated mode since otherwise it can't read the files properly
+
 # Test cases
 1. Default pass
 2. Huge timeout
@@ -341,6 +345,16 @@ unix          xinetd                       probe_xinetd
 4. Iterate and find the breaking point of the test
 5. Overflow timeout
 6. Remove the ssh capabilities
+
+# Tools used
+1. USB stick kingston 32gb USB 3.0
+2. PC specs as mentioned above
+3. VIM which required installation in the system
+
+# Things that I didnt know
+1. Containers dont come by default with sshd.
+2. When something doesnt work always try with sudo.
+3. Fedora doesnt come with Vim but with Python.
 
 # Resources Used
 Below you can find some reading material and resources that I used to achieve my goal.
@@ -358,6 +372,12 @@ Below you can find some reading material and resources that I used to achieve my
 * https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
 * https://www.freebsd.org/cgi/man.cgi?sshd(8)
 * https://unix.stackexchange.com/questions/109380/why-does-sshd-requires-an-absolute-path
+### Unix commands && other useful stuff:
+* https://unix.stackexchange.com/questions/191940/difference-between-owner-root-and-ruid-euid/191955
+* https://unix.stackexchange.com/questions/28791/prompt-for-sudo-password-and-programmatically-elevate-privilege-in-bash-script
+
+<br/>
+<br/>
 #### for cleanup
 https://listman.redhat.com/archives/open-scap-list/2018-August/msg00033.html <br/>
 https://www.open-scap.org/tools/openscap-base/
