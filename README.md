@@ -117,6 +117,8 @@ address sizes	: 36 bits physical, 48 bits virtual
 power management:
 ```
 3. I was using the os library but during the assigment I noticed that there are a few changes and that its better to use subprocess, indeed the functions are superior.
+4. After using the remedy script the error still persists on my system.
+
 
 # Test cases
 1. Default pass
@@ -140,6 +142,7 @@ Below you can find some reading material and resources that I used to achieve my
 * https://www.reddit.com/r/Fedora/comments/er2lbi/how_to_completely_remove_a_package_from_fedora/
 ### SSHD reading material:
 * https://static.open-scap.org/ssg-guides/ssg-fedora-guide-index.html
+* https://www.freebsd.org/cgi/man.cgi?sshd(8)
 
 #### for cleanup
 https://listman.redhat.com/archives/open-scap-list/2018-August/msg00033.html <br/>

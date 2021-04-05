@@ -1,3 +1,2 @@
 #!/bin/bash
-
-remediation.sh
+./remediation.sh
