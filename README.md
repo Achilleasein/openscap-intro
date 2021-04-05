@@ -2,6 +2,7 @@
 1. My PC is very very old and I had an azure subscription so I setup the VM on there. The azure doesn't have a default image of fedora ready, but the fedora project provides one so a manual upload was in order. I eventually did it on a virtualbox on my PC, it was very slow but azure wasn't very cooperative with using fedora as an image.
 Eventually I run it with a live usb on my PC since my old motherboard cant handle it, at last I can start working.
 2. Below you can find my PC specs, they are relevant to any test.
+CPU info:
 ```
 $ cat /proc/cpuinfo 
 processor	: 0
@@ -116,9 +117,96 @@ cache_alignment	: 64
 address sizes	: 36 bits physical, 48 bits virtual
 power management:
 ```
+RAM info: 
+```
+# dmidecode 3.2
+Getting SMBIOS data from sysfs.
+SMBIOS 2.6 present.
+
+Handle 0x002B, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0029
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator: BANK0
+	Type: SDRAM
+	Type Detail: Synchronous
+	Speed: Unknown
+	Manufacturer: Manufacturer00
+	Serial Number: SerNum00
+	Asset Tag: AssetTagNum0
+	Part Number: ModulePartNumber00
+	Rank: Unknown
+
+Handle 0x002D, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0029
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM1
+	Bank Locator: BANK1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Manufacturer01
+	Serial Number: SerNum01
+	Asset Tag: AssetTagNum1
+	Part Number: ModulePartNumber01
+	Rank: Unknown
+
+Handle 0x002F, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0029
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM2
+	Bank Locator: BANK2
+	Type: SDRAM
+	Type Detail: Synchronous
+	Speed: Unknown
+	Manufacturer: Manufacturer02
+	Serial Number: SerNum02
+	Asset Tag: AssetTagNum2
+	Part Number: ModulePartNumber02
+	Rank: Unknown
+
+Handle 0x0031, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x0029
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM3
+	Bank Locator: BANK3
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Manufacturer03
+	Serial Number: SerNum03
+	Asset Tag: AssetTagNum3
+	Part Number: ModulePartNumber03
+	Rank: Unknown
+
+```
 3. I was using the os library but during the assigment I noticed that there are a few changes and that its better to use subprocess, indeed the functions are superior.
 4. After using the remedy script the error still persists on my system.
-
+5. The remedy provided by the guide didnt work, the error persisted.
 
 # Test cases
 1. Default pass
