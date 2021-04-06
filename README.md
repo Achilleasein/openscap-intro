@@ -159,6 +159,13 @@ unix          xinetd                       probe_xinetd
 3. The dropdowns seem kind of unresponsive.
 4. If you dont call openscap with elevated privileges it returns an but it doesnt notify you either about the lack of privileges.
 5. The remediation script should include the setup for max clients.
+# What is left to do?
+1. The rest of the test cases.
+2. Document why I picked those test cases.
+3. Cleanup function.
+4. Cleanup the scripts a bit, there is some redundancy.
+5. Wrap them into smaller files and test cases where the results will be stored.
+6. Automatic check for the errors.
 
 # Resources Used
 Below you can find some reading material and resources that I used to achieve my goal.
