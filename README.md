@@ -153,7 +153,7 @@ unix          xinetd                       probe_xinetd
 1. Containers dont come by default with sshd.
 2. When something doesnt work always try with sudo.
 3. Fedora doesnt come with Vim but with Python.
-# Bugs found
+# Issues found
 1. File in openscap workbench doesnt work.
 2. Help in openscap workbench doesnt work.
 3. The dropdowns seem kind of unresponsive.
@@ -486,6 +486,3 @@ Memory Device
 
 <br/>
 <br/>
-#### for cleanup
-
-
