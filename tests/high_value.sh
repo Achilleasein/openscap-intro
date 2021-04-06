@@ -1,5 +1,5 @@
 #!/bin/bash
-sshd_idle_timeout_value="900"
+sshd_idle_timeout_value="900000"
 
 
 if [ -e "/etc/ssh/sshd_config" ] ; then

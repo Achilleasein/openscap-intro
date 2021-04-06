@@ -1,10 +1,5 @@
 #!/bin/bash
-if [ ! -f /.dockerenv ] && [ ! -f /run/.containerenv ]; then
-
-
 sshd_idle_timeout_value="900"
-
-
 
 if [ -e "/etc/ssh/sshd_config" ] ; then
     LC_ALL=C sed -i "/^\s*ClientAliveInterval\s\+/Id" "/etc/ssh/sshd_config"
